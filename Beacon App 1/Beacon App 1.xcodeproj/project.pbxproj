@@ -26,6 +26,7 @@
 		3F90BF22190951ED00983774 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF21190951ED00983774 /* CoreBluetooth.framework */; };
 		3F90BF24190951F800983774 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF23190951F800983774 /* CoreLocation.framework */; };
 		3F90BF261909520B00983774 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF251909520B00983774 /* SystemConfiguration.framework */; };
+		3F90BF2C19095A2B00983774 /* EstimoteSDK.podspec in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF2B19095A2B00983774 /* EstimoteSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		3F90BF251909520B00983774 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3F90BF271909547A00983774 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = "Beacon App 1.xcodeproj/project.xcworkspace"; sourceTree = "<group>"; };
 		3F90BF29190954C000983774 /* ESTBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ESTBeacon.h; path = "../iOS-SDK-master/EstimoteSDK/Headers/ESTBeacon.h"; sourceTree = "<group>"; };
+		3F90BF2B19095A2B00983774 /* EstimoteSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = EstimoteSDK.podspec; path = "../iOS-SDK-master/EstimoteSDK.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				3F90BEE919089FA000983774 /* CoreGraphics.framework in Frameworks */,
 				3F90BEEB19089FA000983774 /* UIKit.framework in Frameworks */,
 				3F90BEE719089FA000983774 /* Foundation.framework in Frameworks */,
+				3F90BF2C19095A2B00983774 /* EstimoteSDK.podspec in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +120,7 @@
 		3F90BEE519089FA000983774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F90BF2B19095A2B00983774 /* EstimoteSDK.podspec */,
 				3F90BF29190954C000983774 /* ESTBeacon.h */,
 				3F90BF271909547A00983774 /* project.xcworkspace */,
 				3F90BF251909520B00983774 /* SystemConfiguration.framework */,
