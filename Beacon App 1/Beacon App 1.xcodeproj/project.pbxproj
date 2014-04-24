@@ -23,6 +23,9 @@
 		3F90BF0E19089FA000983774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BEEA19089FA000983774 /* UIKit.framework */; };
 		3F90BF1619089FA000983774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F90BF1419089FA000983774 /* InfoPlist.strings */; };
 		3F90BF1819089FA000983774 /* Beacon_App_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F90BF1719089FA000983774 /* Beacon_App_1Tests.m */; };
+		3F90BF22190951ED00983774 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF21190951ED00983774 /* CoreBluetooth.framework */; };
+		3F90BF24190951F800983774 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF23190951F800983774 /* CoreLocation.framework */; };
+		3F90BF261909520B00983774 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F90BF251909520B00983774 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,11 @@
 		3F90BF1319089FA000983774 /* Beacon App 1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beacon App 1Tests-Info.plist"; sourceTree = "<group>"; };
 		3F90BF1519089FA000983774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F90BF1719089FA000983774 /* Beacon_App_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beacon_App_1Tests.m; sourceTree = "<group>"; };
+		3F90BF21190951ED00983774 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3F90BF23190951F800983774 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F90BF251909520B00983774 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F90BF271909547A00983774 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = "Beacon App 1.xcodeproj/project.xcworkspace"; sourceTree = "<group>"; };
+		3F90BF29190954C000983774 /* ESTBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ESTBeacon.h; path = "../iOS-SDK-master/EstimoteSDK/Headers/ESTBeacon.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F90BF24190951F800983774 /* CoreLocation.framework in Frameworks */,
+				3F90BF22190951ED00983774 /* CoreBluetooth.framework in Frameworks */,
+				3F90BF261909520B00983774 /* SystemConfiguration.framework in Frameworks */,
 				3F90BEE919089FA000983774 /* CoreGraphics.framework in Frameworks */,
 				3F90BEEB19089FA000983774 /* UIKit.framework in Frameworks */,
 				3F90BEE719089FA000983774 /* Foundation.framework in Frameworks */,
@@ -106,6 +117,11 @@
 		3F90BEE519089FA000983774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F90BF29190954C000983774 /* ESTBeacon.h */,
+				3F90BF271909547A00983774 /* project.xcworkspace */,
+				3F90BF251909520B00983774 /* SystemConfiguration.framework */,
+				3F90BF23190951F800983774 /* CoreLocation.framework */,
+				3F90BF21190951ED00983774 /* CoreBluetooth.framework */,
 				3F90BEE619089FA000983774 /* Foundation.framework */,
 				3F90BEE819089FA000983774 /* CoreGraphics.framework */,
 				3F90BEEA19089FA000983774 /* UIKit.framework */,
